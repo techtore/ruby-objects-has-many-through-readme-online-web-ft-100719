@@ -14,6 +14,6 @@ class Customer
   end 
   
   def new_meal(customer,total, tip=0)
-    @@all.first(total, tip)
+    @@all.first
   end
 end
