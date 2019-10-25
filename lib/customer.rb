@@ -16,4 +16,9 @@ class Customer
   def new_meal(customer,total, tip=0)
     
   end
+  def waiters
+    meals.map do |meal|
+      meal.waiter
+  end
+end
 end
