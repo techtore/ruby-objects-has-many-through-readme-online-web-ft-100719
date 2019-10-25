@@ -13,7 +13,7 @@ class Customer
     @@all 
   end 
   
-  def new_meal(customer, waiter, tip)
+  def new_meal( waiter, tip)
     
   end
 end
