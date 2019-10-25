@@ -16,7 +16,7 @@ class Meal
   def meals
     Meal.all.select do |meal|
     meal.customer == self
-    @@all << Meal
+    @@all << meals
     end
   end
   
